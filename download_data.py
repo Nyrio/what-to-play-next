@@ -171,7 +171,7 @@ def download_details(game_list, batch_id=0):
           " non-accessible: {fl}".format(
               dl=len(game_details), ds=discarded, fl=failures), end="\r", flush=True)
     
-    with open("game_details.csv", "a", encoding="utf-8") as csv_file:
+    with open("game_details.csv", "a") as csv_file:
         writer = csv.writer(csv_file, lineterminator="\n")
         writer.writerows(game_details)
     print("\nBatch #{} added in game_details.csv\n---".format(batch_id))

@@ -18,7 +18,7 @@ def main():
         reader = csv.reader(csv_file)
         game_list = list(reader)
 
-    with open('game_details.csv', 'r', encoding="utf-8") as csv_file:
+    with open('game_details.csv', 'r') as csv_file:
         reader = csv.reader(csv_file)
         game_details = list(reader)
 
