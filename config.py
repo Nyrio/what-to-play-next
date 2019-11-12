@@ -1,5 +1,9 @@
 # This file allows customization of the model, adapted to your own tastes.
 
+# Number of neurons in the hidden layer
+hidden_layer_size = 16
+nn_iterations = 1000
+
 # The following tags will be added as features in the dataset.
 # Find popular tags here: https://steamdb.info/tags/
 # Notes:
@@ -25,3 +29,6 @@ feature_controller = True
 
 # Do you care about achievements?
 feature_achievements = False
+
+n_params = len(tags_to_features) + feature_price + \
+    feature_controller + feature_achievements + 4
