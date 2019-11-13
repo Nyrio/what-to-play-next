@@ -2,7 +2,6 @@
 
 # Number of neurons in the hidden layer
 hidden_layer_size = 16
-nn_iterations = 1000
 
 # The following tags will be added as features in the dataset.
 # Find popular tags here: https://steamdb.info/tags/

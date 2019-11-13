@@ -26,7 +26,7 @@ def main():
         writer.writerows(training_set)
     print("training_set.csv written")
 
-    inference_set = [details for key, details in details_dic.items()
+    inference_set = [[key] + details for key, details in details_dic.items()
                      if key not in all_ids]
 
     with open("inference_set.csv", "w") as csv_file:

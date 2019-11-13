@@ -1,3 +1,4 @@
 currencyconverter
+matplotlib
 requests
 tensorflow-gpu
