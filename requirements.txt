@@ -1,4 +1,5 @@
 currencyconverter
 matplotlib
 requests
+scikit-learn
 tensorflow-gpu
