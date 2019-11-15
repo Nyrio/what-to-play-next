@@ -30,3 +30,7 @@ pip install -r requirements.txt
  - **Prediction step:** Call `neural_network.py` with the command `fit`
  - Check the predictions in `recommended.csv`
  - Play videogames
+
+## Sample datasets
+
+I've included my datasets in the `samples` folder. they work for me, but they probably won't work for you, they're just here to show you what the files look like and allow you to quickly play with the data.
